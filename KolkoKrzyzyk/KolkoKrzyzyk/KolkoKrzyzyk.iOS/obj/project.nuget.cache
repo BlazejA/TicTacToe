@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "I46NFs8iw6Z955Ql3hL7OY7gMi08THJeRWAJfc11cVm6zL2LjlThDi/0MLafUOnQUSNeGr41WROBLS6AyBWbew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ablaz\\Documents\\GitHub\\Kolkokrzyzyk\\TicTacToe\\KolkoKrzyzyk\\KolkoKrzyzyk\\KolkoKrzyzyk.iOS\\KolkoKrzyzyk.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+  ],
+  "logs": []
+}

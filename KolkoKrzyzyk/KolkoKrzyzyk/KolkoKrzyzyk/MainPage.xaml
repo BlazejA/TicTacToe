@@ -4,7 +4,47 @@
              x:Class="KolkoKrzyzyk.MainPage">
 
     <StackLayout>
-        
+        <Label Text="Witaj w grze &#10;Kółko i krzyżyk"
+               FontSize="Title"
+               TextColor="Black"
+               HorizontalTextAlignment="Center"
+               HeightRequest="100"
+               VerticalTextAlignment="Center"
+               Margin="10, 10"
+               BackgroundColor="FloralWhite"/>
+        <Image Source="Image1.png"
+               HeightRequest="200"/>
+        <Grid BackgroundColor="PapayaWhip">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Text="Wybierz poziom trudności: "
+                   TextColor="Black"
+                   VerticalTextAlignment="Center"
+                   Grid.Column="0"
+                   Grid.Row="1"/>
+            <Picker
+                Grid.Column="1"
+                   Grid.Row="1">
+                <Picker.Items>
+                    <x:String>Łatwy</x:String>
+                    <x:String>Trudny</x:String>
+                </Picker.Items>                
+            </Picker>
+        </Grid>
+        <Button Text="START"
+                BackgroundColor="PapayaWhip"
+                Margin="20"
+                VerticalOptions="End"
+                HorizontalOptions="Center"/>
+
+
     </StackLayout>
 
 </ContentPage>

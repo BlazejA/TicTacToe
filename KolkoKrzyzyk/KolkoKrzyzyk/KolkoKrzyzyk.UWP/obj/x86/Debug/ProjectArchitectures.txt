@@ -1,0 +1,1 @@
+C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk\KolkoKrzyzyk.UWP\KolkoKrzyzyk.UWP.csproj;x86

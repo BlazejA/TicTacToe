@@ -1,0 +1,14 @@
+C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk\KolkoKrzyzyk\bin\Debug\netstandard2.0\KolkoKrzyzyk.deps.json
+C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk\KolkoKrzyzyk\bin\Debug\netstandard2.0\KolkoKrzyzyk.dll
+C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk\KolkoKrzyzyk\bin\Debug\netstandard2.0\ref\KolkoKrzyzyk.dll
+C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk\KolkoKrzyzyk\bin\Debug\netstandard2.0\KolkoKrzyzyk.pdb
+C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\netstandard2.0\KolkoKrzyzyk.csprojAssemblyReference.cache
+C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\netstandard2.0\KolkoKrzyzyk.AssemblyInfoInputs.cache
+C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\netstandard2.0\KolkoKrzyzyk.AssemblyInfo.cs
+C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\netstandard2.0\KolkoKrzyzyk.csproj.CoreCompileInputs.cache
+C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\netstandard2.0\KolkoKrzyzyk.dll
+C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\netstandard2.0\ref\KolkoKrzyzyk.dll
+C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\netstandard2.0\KolkoKrzyzyk.pdb
