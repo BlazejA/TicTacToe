@@ -13,3 +13,4 @@ C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk
 C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\netstandard2.0\ref\KolkoKrzyzyk.dll
 C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\netstandard2.0\KolkoKrzyzyk.pdb
 C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\netstandard2.0\KolkoKrzyzyk.csprojAssemblyReference.cache
+C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\netstandard2.0\Page1.xaml.g.cs

@@ -11,7 +11,9 @@ namespace KolkoKrzyzyk
         char playerSign;
         char computerSign;
         bool playerStart = false;
-        
+        bool playerWin = false;
+        bool computerWin = false;
+
         public Game1()
         {
             InitializeComponent();
@@ -40,9 +42,10 @@ namespace KolkoKrzyzyk
            Button btn = (Button)sender;
             if (btn.Text == null)
             {
-                IsTableFull();
+                WhoWin();
                 btn.Text = playerSign.ToString();
-                if(!IsTableFull())
+                WhoWin();
+                if (!IsTableFull() && !playerWin)
                     ComputerMove();                
             }
             else
@@ -50,6 +53,7 @@ namespace KolkoKrzyzyk
         }
         private void ComputerMove()
         {
+            WhoWin();
             Button[] btnTab = { b1, b2, b3, b4, b5, b6, b7, b8, b9 };
             bool isFilled = false;
             Random random = new Random();
@@ -63,13 +67,10 @@ namespace KolkoKrzyzyk
                 }
 
             } while (!isFilled);
-            IsTableFull();
+            WhoWin();
         }
         private void WhoWin()
         {
-            bool playerWin = false;
-            bool computerWin = false;
-
             if ((b1.Text == playerSign.ToString() && b2.Text == playerSign.ToString() && b3.Text == playerSign.ToString()) ||
                (b4.Text == playerSign.ToString() && b5.Text == playerSign.ToString() && b6.Text == playerSign.ToString()) ||
                (b7.Text == playerSign.ToString() && b8.Text == playerSign.ToString() && b9.Text == playerSign.ToString()) ||
@@ -88,46 +89,34 @@ namespace KolkoKrzyzyk
                (b1.Text == computerSign.ToString() && b5.Text == computerSign.ToString() && b9.Text == computerSign.ToString()) ||
                (b3.Text == computerSign.ToString() && b5.Text == computerSign.ToString() && b7.Text == computerSign.ToString()))
                 computerWin = true;
+           
 
-
-            if (playerWin)
-                ShowMessageAsync("Brawo", "Wygrałeś!", "Menu");
-            else if (computerWin)
-                ShowMessageAsync(":(", "Przegrałeś!", "Menu");
-
+            if (playerWin || computerWin)
+                Navigation.PushModalAsync(new Page1(playerWin, computerWin));
+            IsTableFull();
+            
         }
 
         private bool IsTableFull()
-        {
-            WhoWin();
+        {            
             Button[] btnTab = { b1, b2, b3, b4, b5, b6, b7, b8, b9 };
             int licz = 0;
-            for(int i = 0; i < 9; i++)
+            for(int i = 0; i < btnTab.Length; i++)
             {
                 if (btnTab[i].Text != null)
                     licz++;
                 else
                     return false;
             }
-            if (licz == 9)
+            if (licz == 9 && !playerWin && !computerWin)
             {
-                ShowMessageAsync("Prawie", "Remis", "Menu");
+                Navigation.PushModalAsync(new Page1(playerWin, computerWin));
                 return true;                
-            }
-            
+            }            
             return false;
             
         }
 
-        public async void ShowMessageAsync(string tittle, string message, string ok)
-        {
-            var res = await DisplayAlert(tittle, message, ok,"Wyjdź");
-            
-            if (res)
-                await Navigation.PushModalAsync(new MainPage()); 
-            else
-                System.Diagnostics.Process.GetCurrentProcess().Kill();
-        }
              
 
     }

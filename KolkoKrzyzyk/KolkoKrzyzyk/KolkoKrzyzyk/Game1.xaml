@@ -3,14 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KolkoKrzyzyk.Game1">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="FloralWhite">
             <Label Text=""
                  x:Name="signLabel"
                  TextColor="Black"
                  FontSize="Title"
                  VerticalTextAlignment="Center"
                  HorizontalTextAlignment="Center"
-                 Margin="20, 20"
+                 Margin="20, 20, 20, 20"
                  HeightRequest="100"/>
 
             <Grid BackgroundColor="Gold"

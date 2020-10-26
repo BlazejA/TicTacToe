@@ -10,7 +10,7 @@
                HorizontalTextAlignment="Center"
                HeightRequest="100"
                VerticalTextAlignment="Center"
-               Margin="10, 10"
+               Margin="10, 10, 10, 10"
                />
         <Image Source="Image1.png"
                HeightRequest="200"/>
@@ -31,7 +31,8 @@
                    Grid.Row="1"/>
             <Picker
                 Grid.Column="1"
-                   Grid.Row="1">
+                Grid.Row="1"
+                x:Name="picker">
                 <Picker.Items>
                     <x:String>Łatwy</x:String>
                     <x:String>Trudny</x:String>
@@ -40,7 +41,7 @@
         </Grid>
         <Button Text="START"
                 BackgroundColor="PapayaWhip"
-                Margin="20"
+                Margin="20,20,20,20"
                 VerticalOptions="End"
                 HorizontalOptions="Center"
                 Clicked="Button_Clicked"/>

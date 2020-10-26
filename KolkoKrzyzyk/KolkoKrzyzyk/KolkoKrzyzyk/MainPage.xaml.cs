@@ -17,7 +17,14 @@ namespace KolkoKrzyzyk
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new Game1());
+            
+            if (picker.SelectedItem == null)
+                await DisplayAlert("Błąd", "Nie wybrano poziomu trudności!", "OK");
+            else if (picker.SelectedItem.ToString() == "Trudny")
+                await DisplayAlert("Błąd", "Nie wybrano poziomu trudności!", "OK"); 
+            else if (picker.SelectedItem.ToString() == "Łatwy")
+                await Navigation.PushModalAsync(new Game1());
+
         }
     }
 }
