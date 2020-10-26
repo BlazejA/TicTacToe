@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KolkoKrzyzyk.Game">
+  <ContentView.Content>
+      <StackLayout>
+          <Label Text=""
+                 x:Name="znak"
+                 TextColor="Black"
+                 FontSize="Title"
+                 VerticalTextAlignment="Center"
+                 HorizontalTextAlignment="Center"
+                 Margin="20, 20"
+                 HeightRequest="100"/>
+            
+            <Grid BackgroundColor="Gold"
+                  HorizontalOptions="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="b1"
+                        Grid.Row="0"
+                        Grid.Column="0"/>
+                <Button x:Name="b2"
+                        Grid.Row="0"
+                        Grid.Column="1"/>
+                <Button x:Name="b3"
+                        Grid.Row="0"
+                        Grid.Column="2"/>
+                <Button x:Name="b4"
+                        Grid.Row="1"
+                        Grid.Column="0"/>
+                <Button x:Name="b5"
+                        Grid.Row="1"
+                        Grid.Column="1"/>
+                <Button x:Name="b6"
+                        Grid.Row="1"
+                        Grid.Column="2"/>
+                <Button x:Name="b7"
+                        Grid.Row="2"
+                        Grid.Column="0"/>
+                <Button x:Name="b8"
+                        Grid.Row="2"
+                        Grid.Column="1"/>
+                <Button x:Name="b9"
+                        Grid.Row="2"
+                        Grid.Column="2"/>
+            </Grid>
+
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KolkoKrzyzyk.MainPage">
 
-    <StackLayout>
+    <StackLayout BackgroundColor="FloralWhite">
         <Label Text="Witaj w grze &#10;Kółko i krzyżyk"
                FontSize="Title"
                TextColor="Black"
@@ -11,7 +11,7 @@
                HeightRequest="100"
                VerticalTextAlignment="Center"
                Margin="10, 10"
-               BackgroundColor="FloralWhite"/>
+               />
         <Image Source="Image1.png"
                HeightRequest="200"/>
         <Grid BackgroundColor="PapayaWhip">
@@ -42,9 +42,8 @@
                 BackgroundColor="PapayaWhip"
                 Margin="20"
                 VerticalOptions="End"
-                HorizontalOptions="Center"/>
-
-
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked"/>
     </StackLayout>
 
 </ContentPage>
