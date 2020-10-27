@@ -720,7 +720,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ablaz\Documents\GitHub\Kolkokrzyzyk\TicTacToe\KolkoKrzyzyk\KolkoKrzyzyk\KolkoKrzyzyk\bin\Debug\netstandard2.0\KolkoKrzyzyk.dll">
       <PackagePath>KolkoKrzyzyk.dll</PackagePath>
-      <Modified>2020-10-27T12:52:02.042</Modified>
+      <Modified>2020-10-27T12:53:32.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ablaz\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>

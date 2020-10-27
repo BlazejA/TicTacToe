@@ -72,7 +72,7 @@
                         Clicked="Button_Clicked"/>
             </Grid>
             <Button x:Name="newGameButton"
-                    Text="Nowa Gra"
+                    Text="Menu"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand"
                     BackgroundColor="SteelBlue"
