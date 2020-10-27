@@ -21,6 +21,24 @@ namespace KolkoKrzyzyk
             if (!playerStart)
                 ComputerMove();
         }
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+           Button btn = (Button)sender;
+            if (btn.Text == null)
+            {
+                WhoWin();
+                btn.Text = playerSign.ToString();
+                WhoWin();
+                if (!IsTableFull() && !playerWin)
+                    ComputerMove();                
+            }
+            else
+                DisplayAlert("Błąd", "Miejsce zajęte!", "OK"); 
+        }
+        private void newGameButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new MainPage());
+        }
 
         public void RandomSign()
         {
@@ -36,21 +54,7 @@ namespace KolkoKrzyzyk
                 computerSign = 'X';
 
             signLabel.Text = "Twój znak: " + playerSign;
-        }
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-           Button btn = (Button)sender;
-            if (btn.Text == null)
-            {
-                WhoWin();
-                btn.Text = playerSign.ToString();
-                WhoWin();
-                if (!IsTableFull() && !playerWin)
-                    ComputerMove();                
-            }
-            else
-                DisplayAlert("Błąd", "Miejsce zajęte!", "OK"); 
-        }
+        }        
         private void ComputerMove()
         {
             WhoWin();
@@ -96,7 +100,6 @@ namespace KolkoKrzyzyk
             IsTableFull();
             
         }
-
         private bool IsTableFull()
         {            
             Button[] btnTab = { b1, b2, b3, b4, b5, b6, b7, b8, b9 };

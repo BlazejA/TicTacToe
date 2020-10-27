@@ -21,7 +21,7 @@ namespace KolkoKrzyzyk
             if (picker.SelectedItem == null)
                 await DisplayAlert("Błąd", "Nie wybrano poziomu trudności!", "OK");
             else if (picker.SelectedItem.ToString() == "Trudny")
-                await DisplayAlert("Błąd", "Nie wybrano poziomu trudności!", "OK"); 
+                await Navigation.PushModalAsync(new HardMode());
             else if (picker.SelectedItem.ToString() == "Łatwy")
                 await Navigation.PushModalAsync(new Game1());
 

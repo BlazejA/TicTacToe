@@ -71,7 +71,12 @@
                         FontSize="Large"
                         Clicked="Button_Clicked"/>
             </Grid>
-            <Label x:Name="resultLabel"/>
+            <Button x:Name="newGameButton"
+                    Text="Nowa Gra"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                    BackgroundColor="PapayaWhip"
+                    Clicked="newGameButton_Clicked"/>
 
         </StackLayout>
     </ContentPage.Content>
